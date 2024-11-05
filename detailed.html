@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>Rapport Détaillé (Plan d'Action) - Saham Loulidi</title>
-    <!-- Ajout de Bootstrap CSS -->
+    <title>التقرير المفصل (خطة العمل) - سهام الوليدي</title>
+    <!-- إضافة Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Ajout de Font Awesome pour les icônes -->
+    <!-- إضافة Font Awesome للأيقونات -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!-- Police française élégante -->
+    <!-- خط عربي جميل -->
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
-    <!-- Style personnalisé -->
+    <!-- تنسيق مخصص -->
     <style>
-        /* Styles de base */
+        /* الأنماط الأساسية */
         body {
             font-family: 'Cairo', sans-serif;
-            direction: ltr;
+            direction: rtl;
             background-color: #f8f9fa;
             padding-top: 70px;
         }
         
-        /* Style de l'en-tête */
+        /* تنسيق الهيدر */
         header {
             background-color: #fff;
             padding: 20px 0;
@@ -30,7 +30,7 @@
             max-width: 250px;
         }
         
-        /* Style de la barre de navigation */
+        /* تنسيق شريط التنقل */
         nav {
             background-color: #343a40;
         }
@@ -39,7 +39,7 @@
             font-weight: bold;
         }
         
-        /* Style du contenu général */
+        /* تنسيق المحتوى العام */
         .container {
             margin-top: 20px;
         }
@@ -48,17 +48,17 @@
         .report-content h4 {
             color: #343a40;
             margin-top: 20px;
-            text-align: left;
+            text-align: right;
         }
         .report-content p, 
         .report-content ul {
             color: #555;
             line-height: 1.8;
             margin-bottom: 15px;
-            text-align: left;
+            text-align: right;
         }
         
-        /* Style de l'accordéon */
+        /* تنسيق الأكورديون */
         .accordion-section {
             margin-bottom: 20px;
         }
@@ -73,14 +73,13 @@
         }
         .accordion-section .card-header .btn {
             width: 100%;
-            text-align: left;
+            text-align: right;
             color: #fff;
             padding: 15px;
             position: relative;
             font-weight: bold;
             text-decoration: none;
             background-color: transparent;
-            border: none;
         }
         .accordion-section .card-header .btn:hover,
         .accordion-section .card-header .btn:focus {
@@ -90,29 +89,29 @@
         }
         .accordion-section .card-header .btn .icon-wrapper {
             position: absolute;
-            right: 15px;
+            left: 15px;
             top: 50%;
             transform: translateY(-50%);
         }
         .accordion-section .card-header .btn i {
             transition: transform 0.3s ease;
-            transform: rotate(180deg); /* Icônes ouvertes par défaut */
+            transform: rotate(0deg); /* أيقونة مفتوحة بشكل افتراضي */
         }
         .accordion-section .card-header .btn.collapsed i {
-            transform: rotate(0deg); /* Icônes fermées lors du repli */
+            transform: rotate(180deg);
         }
         
-        /* Style de l'accordéon interne */
+        /* تنسيق الأكورديون الداخلي */
         .inner-accordion .card-header {
             background-color: #4a5561;
         }
         .inner-accordion .card-header .btn {
-            padding-left: 30px;
+            padding-right: 30px;
         }
         
-        /* Style des listes */
+        /* تنسيق القوائم */
         .report-content ul {
-            padding-left: 20px;
+            padding-right: 20px;
             list-style-type: none;
         }
         .report-content ul li {
@@ -124,10 +123,10 @@
             color: #343a40;
             font-weight: bold;
             position: absolute;
-            left: -20px;
+            right: -20px;
         }
         
-        /* Style du pied de page */
+        /* تنسيق الفوتر */
         footer {
             background-color: #343a40;
             color: #fff;
@@ -136,7 +135,7 @@
             margin-top: 40px;
         }
         
-        /* Améliorations pour les petits écrans */
+        /* تحسينات للشاشات الصغيرة */
         @media (max-width: 768px) {
             .accordion-section .card-header .btn {
                 font-size: 14px;
@@ -156,43 +155,43 @@
 </head>
 <body>
     <header>
-        <!-- Assurez-vous de remplacer le src par l'image réelle de votre logo -->
-        <img src="https://www.ficosa.com/wp-content/themes/generatepress_child/media/logo_ficosa.png" alt="Logo de l'entreprise">
+        <!-- تأكد من استبدال src بالصورة الفعلية لشعار الشركة -->
+        <img src="/api/placeholder/250/100" alt="شعار الشركة">
     </header>
 
-    <!-- Barre de navigation -->
+    <!-- شريط التنقل -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Rapport Détaillé (Plan d'Action)</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+            <a class="navbar-brand" href="#">التقرير المفصل (خطة العمل)</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="medium.html">Rapport Moyen</a>
+                        <a class="nav-link" href="medium.html">التقرير المتوسط</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="short.html">Rapport Court</a>
+                        <a class="nav-link" href="short.html">التقرير المختصر</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">الرئيسية</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Contenu principal -->
+    <!-- المحتوى الرئيسي -->
     <div class="container">
         <div class="report-content">
-            <!-- Accordéon principal -->
+            <!-- الأكورديون الرئيسي -->
             <div class="accordion accordion-section" id="mainAccordion">
-                <!-- Introduction -->
+                <!-- المقدمة -->
                 <div class="card">
                     <div class="card-header" id="headingIntro">
                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseIntro" aria-expanded="true" aria-controls="collapseIntro">
-                            Introduction
+                            المقدمة
                             <div class="icon-wrapper">
                                 <i class="fas fa-chevron-down"></i>
                             </div>
@@ -200,16 +199,16 @@
                     </div>
                     <div id="collapseIntro" class="collapse show" data-parent="#mainAccordion">
                         <div class="card-body">
-                            <p>Bonjour, je suis <strong>Saham Loulidi</strong>, et ce rapport détaillé présente un plan complet pour atteindre les objectifs de l'entreprise et améliorer les performances de l'équipe de production à moyen et long terme. Nous adoptons un système d'équipe similaire à celui de la <strong>ruche d'abeilles</strong>, où chaque membre contribue de manière significative au succès de l'équipe. L'objectif est de renforcer la collaboration, la responsabilité et le développement continu de chaque membre de l'équipe.</p>
+                            <p>السلام عليكم، أنا <strong>سهام الوليدي</strong>، وهذا تقرير مفصل كيقدم خطة شاملة لتحقيق أهداف الشركة وتطوير أداء فريق الإنتاج على المدى المتوسط والطويل. نعتمد على نظام الفريق بحال <strong>خلية النحل</strong>، فين كل عضو كيساهم بدور مهم فنجاح الفريق. الهدف هو تعزيز التعاون، المسؤولية، والتطوير المستمر لكل فرد فالفريق.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Objectifs -->
+                <!-- الأهداف -->
                 <div class="card">
                     <div class="card-header" id="headingObjectives">
                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseObjectives" aria-expanded="true" aria-controls="collapseObjectives">
-                            Objectifs
+                            الأهداف
                             <div class="icon-wrapper">
                                 <i class="fas fa-chevron-down"></i>
                             </div>
@@ -218,25 +217,25 @@
                     <div id="collapseObjectives" class="collapse show" data-parent="#mainAccordion">
                         <div class="card-body">
                             <ul>
-                                <li><strong>Augmenter la productivité d'un certain pourcentage après consultation avec les directeurs</strong> :
-                                    <p>Augmenter progressivement et de manière réfléchie les taux de production afin d'assurer la continuité et la qualité.</p>
+                                <li><strong>زيادة الإنتاجية بنسبة معينة بعد التشاور مع المدراء</strong>:
+                                    <p>رفع معدلات الإنتاج بشكل تدريجي ومدروس، باش نضمنو الاستمرارية والجودة.</p>
                                 </li>
-                                <li><strong>Améliorer la qualité et réduire les défauts au minimum possible</strong> :
-                                    <p>Appliquer des normes de qualité strictes et des révisions régulières pour améliorer le produit et satisfaire les clients.</p>
+                                <li><strong>تحسين الجودة وتقليل العيوب لأقل مستوى ممكن</strong>:
+                                    <p>تطبيق معايير جودة صارمة ومراجعات دورية، باش نحسنو المنتج ونرضيو الزبناء.</p>
                                 </li>
-                                <li><strong>Créer un environnement de travail positif qui augmente l'interaction et la satisfaction parmi les membres de l'équipe</strong> :
-                                    <p>Renforcer la communication et la motivation continue pour que chacun se sente valorisé dans sa contribution.</p>
+                                <li><strong>خلق بيئة عمل إيجابية كتزيد التفاعل والرضا بين أعضاء الفريق</strong>:
+                                    <p>تعزيز التواصل والتحفيز المستمر، باش يحس كل واحد بقيمة المساهمة ديالو.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Plan d'Action Détaillé -->
+                <!-- خطة التنفيذ المفصلة -->
                 <div class="card">
                     <div class="card-header" id="headingImplementation">
                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseImplementation" aria-expanded="true" aria-controls="collapseImplementation">
-                            Plan d'Action Détaillé
+                            خطة التنفيذ المفصلة
                             <div class="icon-wrapper">
                                 <i class="fas fa-chevron-down"></i>
                             </div>
@@ -244,12 +243,12 @@
                     </div>
                     <div id="collapseImplementation" class="collapse show" data-parent="#mainAccordion">
                         <div class="card-body">
-                            <!-- Premier Mois -->
+                            <!-- الشهر الأول -->
                             <div class="accordion inner-accordion" id="monthOne">
                                 <div class="card">
                                     <div class="card-header" id="headingMonth1">
                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth1" aria-expanded="true" aria-controls="collapseMonth1">
-                                            Premier Mois : Planification et Fondation
+                                            الشهر الأول: التخطيط والتأسيس
                                             <div class="icon-wrapper">
                                                 <i class="fas fa-chevron-down"></i>
                                             </div>
@@ -257,12 +256,12 @@
                                     </div>
                                     <div id="collapseMonth1" class="collapse show" data-parent="#monthOne">
                                         <div class="card-body">
-                                            <!-- Semaine 1 -->
+                                            <!-- الأسبوع 1 -->
                                             <div class="accordion inner-accordion" id="week1Accordion">
                                                 <div class="card">
                                                     <div class="card-header" id="headingWeek1">
                                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek1" aria-expanded="true" aria-controls="collapseWeek1">
-                                                            Semaine 1 : Clarification des Objectifs et des Responsabilités
+                                                            الأسبوع 1: توضيح الأهداف والمسؤوليات
                                                             <div class="icon-wrapper">
                                                                 <i class="fas fa-chevron-down"></i>
                                                             </div>
@@ -270,25 +269,25 @@
                                                     </div>
                                                     <div id="collapseWeek1" class="collapse show" data-parent="#week1Accordion">
                                                         <div class="card-body">
-                                                            <p><strong>Jour 1 : Réunion générale avec l'équipe pour présenter les objectifs et le plan</strong></p>
-                                                            <p>Nous expliquerons nos objectifs, les méthodes que nous utiliserons, et soulignerons l'importance de la collaboration et de la coordination.</p>
+                                                            <p><strong>اليوم 1: اجتماع عام مع الفريق لعرض الأهداف والخطة</strong></p>
+                                                            <p>نشرحو فيها الأهداف ديالنا، والطرق اللي غادي نستعملوها، ونوضحو شحال مهم التعاون والتنسيق.</p>
 
-                                                            <p><strong>Jours 2-3 : Réunions individuelles avec chaque membre</strong></p>
-                                                            <p>Nous discuterons individuellement avec chaque personne pour expliquer son rôle et écouter ses suggestions et opinions.</p>
+                                                            <p><strong>اليوم 2-3: اجتماعات فردية مع كل عضو</strong></p>
+                                                            <p>نهضرو مع كل واحد على حدا، نشرحو ليه الدور ديالو، ونسمعو لاقتراحاتو وآراؤو.</p>
 
-                                                            <p><strong>Jours 4-5 : Distribution de documents explicatifs</strong></p>
-                                                            <p>Nous fournirons des documents détaillés afin que les membres puissent les consulter à tout moment.</p>
+                                                            <p><strong>اليوم 4-5: توزيع مواد توضيحية</strong></p>
+                                                            <p>نعطيو وثائق مكتوبة فيها التفاصيل، باش يرجع ليها الأعضاء في أي وقت.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Semaine 2 -->
+                                            <!-- الأسبوع 2 -->
                                             <div class="accordion inner-accordion" id="week2Accordion">
                                                 <div class="card">
                                                     <div class="card-header" id="headingWeek2">
                                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek2" aria-expanded="true" aria-controls="collapseWeek2">
-                                                            Semaine 2 : Évaluation et Distribution des Tâches selon les Compétences
+                                                            الأسبوع 2: تقييم وتوزيع المهام حسب المهارات
                                                             <div class="icon-wrapper">
                                                                 <i class="fas fa-chevron-down"></i>
                                                             </div>
@@ -296,25 +295,25 @@
                                                     </div>
                                                     <div id="collapseWeek2" class="collapse show" data-parent="#week2Accordion">
                                                         <div class="card-body">
-                                                            <p><strong>Jours 6-7 : Réalisation d'une évaluation des compétences et des expériences</strong></p>
-                                                            <p>Nous organiserons des enquêtes et des tests simples pour identifier les compétences de chaque membre.</p>
+                                                            <p><strong>اليوم 6-7: إجراء تقييم للمهارات والخبرات</strong></p>
+                                                            <p>نديرو استبيانات واختبارات بسيطة، باش نعرفو المهارات ديال كل عضو.</p>
 
-                                                            <p><strong>Jour 8 : Analyse des résultats</strong></p>
-                                                            <p>Nous compilerons les résultats et identifierons les domaines de force de chacun.</p>
+                                                            <p><strong>اليوم 8: تحليل النتائج</strong></p>
+                                                            <p>نجمّعو النتائج، ونشوفو المجالات اللي كيتفوق فيها كل واحد.</p>
 
-                                                            <p><strong>Jours 9-10 : Élaboration d'un plan de distribution des tâches</strong></p>
-                                                            <p>Nous assignerons des tâches adaptées à chaque membre pour assurer une production efficace.</p>
+                                                            <p><strong>اليوم 9-10: وضع خطة توزيع المهام</strong></p>
+                                                            <p>نعطيو لكل واحد المهام اللي كتناسبو، باش يكون الإنتاج فعال.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Semaine 3 -->
+                                            <!-- الأسبوع 3 -->
                                             <div class="accordion inner-accordion" id="week3Accordion">
                                                 <div class="card">
                                                     <div class="card-header" id="headingWeek3">
                                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek3" aria-expanded="true" aria-controls="collapseWeek3">
-                                                            Semaine 3 : Orientation et Formation
+                                                            الأسبوع 3: التوجيه والتدريب
                                                             <div class="icon-wrapper">
                                                                 <i class="fas fa-chevron-down"></i>
                                                             </div>
@@ -322,22 +321,22 @@
                                                     </div>
                                                     <div id="collapseWeek3" class="collapse show" data-parent="#week3Accordion">
                                                         <div class="card-body">
-                                                            <p><strong>Jours 11-13 : Offrir des formations</strong></p>
-                                                            <p>Nous fournirons des formations dans les domaines nécessitant un développement.</p>
+                                                            <p><strong>اليوم 11-13: تقديم دورات تدريبية</strong></p>
+                                                            <p>نوفر تكوينات فالمجالات اللي محتاجين نطورو فيها.</p>
 
-                                                            <p><strong>Jours 14-15 : Élaboration d'un guide des procédures de travail</strong></p>
-                                                            <p>Nous préparerons un guide complet des étapes et des procédures pour assurer la clarté de tous.</p>
+                                                            <p><strong>اليوم 14-15: إعداد دليل إجراءات العمل</strong></p>
+                                                            <p>نوجدو دليل شامل فيه الخطوات والإجراءات، باش يكون كلشي واضح.</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <!-- Semaine 4 -->
+                                            <!-- الأسبوع 4 -->
                                             <div class="accordion inner-accordion" id="week4Accordion">
                                                 <div class="card">
                                                     <div class="card-header" id="headingWeek4">
                                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek4" aria-expanded="true" aria-controls="collapseWeek4">
-                                                            Semaine 4 : Début de l'Exécution et Suivi
+                                                            الأسبوع 4: بدء التنفيذ والمتابعة
                                                             <div class="icon-wrapper">
                                                                 <i class="fas fa-chevron-down"></i>
                                                             </div>
@@ -345,14 +344,14 @@
                                                     </div>
                                                     <div id="collapseWeek4" class="collapse show" data-parent="#week4Accordion">
                                                         <div class="card-body">
-                                                            <p><strong>Jour 16 : Commencer à travailler selon les nouveaux plans</strong></p>
-                                                            <p>Nous commencerons à travailler selon les plans que nous avons établis.</p>
+                                                            <p><strong>اليوم 16: بدء العمل بالخطط الجديدة</strong></p>
+                                                            <p>نبداو فالعمل حسب الخطط اللي وضعناها.</p>
 
-                                                            <p><strong>Jours 17-20 : Suivi quotidien des progrès</strong></p>
-                                                            <p>Nous surveillerons les progrès et nous assurerons que tout se passe bien.</p>
+                                                            <p><strong>اليوم 17-20: متابعة يومية للتقدم</strong></p>
+                                                            <p>نراقبو التقدم، ونتأكدو أن كلشي غادي مزيان.</p>
 
-                                                            <p><strong>Jour 21 : Réunion hebdomadaire de révision</strong></p>
-                                                            <p>Nous nous réunirons pour discuter des réalisations et des défis, et ajusterons le cap si nécessaire.</p>
+                                                            <p><strong>اليوم 21: اجتماع مراجعة أسبوعي</strong></p>
+                                                            <p>نجتمعو باش نناقشو الإنجازات والتحديات، ونصححو المسار إذا لزم الأمر.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -361,12 +360,12 @@
                                     </div>
                                 </div>
 
-                                <!-- Deuxième Mois -->
+                                <!-- الشهر الثاني -->
                                 <div class="accordion inner-accordion" id="monthTwo">
                                     <div class="card">
                                         <div class="card-header" id="headingMonth2">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth2" aria-expanded="true" aria-controls="collapseMonth2">
-                                                Deuxième Mois : Prévention et Développement
+                                                الشهر الثاني: الوقاية والتطوير
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -374,12 +373,12 @@
                                         </div>
                                         <div id="collapseMonth2" class="collapse show" data-parent="#monthTwo">
                                             <div class="card-body">
-                                                <!-- Semaine 5 -->
+                                                <!-- الأسبوع 5 -->
                                                 <div class="accordion inner-accordion" id="week5Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek5">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek5" aria-expanded="true" aria-controls="collapseWeek5">
-                                                                Semaine 5 : Analyse des Racines des Problèmes
+                                                                الأسبوع 5: تحليل جذور المشاكل
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -387,25 +386,25 @@
                                                         </div>
                                                         <div id="collapseWeek5" class="collapse show" data-parent="#week5Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Jours 22-23 : Collecte des données sur les problèmes précédents</strong></p>
-                                                                <p>Nous collecterons des informations sur les problèmes survenus auparavant.</p>
+                                                                <p><strong>اليوم 22-23: جمع البيانات عن المشاكل السابقة</strong></p>
+                                                                <p>نجمعو المعلومات على المشاكل اللي وقعت قبل.</p>
 
-                                                                <p><strong>Jour 24 : Atelier d'analyse des causes profondes</strong></p>
-                                                                <p>Nous nous réunirons tous ensemble pour essayer de comprendre les causes réelles des problèmes.</p>
+                                                                <p><strong>اليوم 24: ورشة عمل لتحليل الأسباب الجذرية</strong></p>
+                                                                <p>نتلاقاو كاملين، ونحاولو نفهمو الأسباب الحقيقية للمشاكل.</p>
 
-                                                                <p><strong>Jour 25 : Élaboration d'un plan pour traiter les causes</strong></p>
-                                                                <p>Nous définirons des solutions pour éviter la répétition des mêmes problèmes.</p>
+                                                                <p><strong>اليوم 25: وضع خطة لمعالجة الأسباب</strong></p>
+                                                                <p>نحددو الحلول اللي غادي تمنع تكرار نفس المشاكل.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 6 -->
+                                                <!-- الأسبوع 6 -->
                                                 <div class="accordion inner-accordion" id="week6Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek6">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek6" aria-expanded="true" aria-controls="collapseWeek6">
-                                                                Semaine 6 : Mise en Œuvre des Mesures Préventives
+                                                                الأسبوع 6: تطبيق إجراءات وقائية
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -413,66 +412,66 @@
                                                         </div>
                                                         <div id="collapseWeek6" class="collapse show" data-parent="#week6Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Jours 26-27 : Mise à jour des politiques et procédures de travail</strong></p>
-                                                                <p>Nous ajusterons les politiques en fonction des enseignements tirés de l'analyse.</p>
+                                                                <p><strong>اليوم 26-27: تحديث سياسات وإجراءات العمل</strong></p>
+                                                                <p>نعدلو السياسات حسب ما تعلمنا من التحليل.</p>
 
-                                                                <p><strong>Jour 28 : Formation de l'équipe sur les nouveaux changements</strong></p>
-                                                                <p>Nous expliquerons les changements aux membres et les formerons à leur utilisation.</p>
+                                                                <p><strong>اليوم 28: تدريب الفريق على التغييرات الجديدة</strong></p>
+                                                                <p>نشرحو التغييرات للأعضاء، وندربوهم عليها.</p>
 
-                                                                <p><strong>Jours 29-30 : Mise en œuvre des mesures et suivi de leur conformité</strong></p>
-                                                                <p>Nous commencerons à appliquer les nouvelles mesures et nous assurerons que tout le monde les respecte.</p>
+                                                                <p><strong>اليوم 29-30: تنفيذ الإجراءات ومراقبة الالتزام بها</strong></p>
+                                                                <p>نبداو نطبّقو الإجراءات الجديدة، ونتأكدو أن الجميع كيلتزم بها.</p>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
 
-                                                    <!-- Semaine 7 -->
-                                                    <div class="accordion inner-accordion" id="week7Accordion">
-                                                        <div class="card">
-                                                            <div class="card-header" id="headingWeek7">
-                                                                <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek7" aria-expanded="true" aria-controls="collapseWeek7">
-                                                                    Semaine 7 : Développement des Plans de Contingence
-                                                                    <div class="icon-wrapper">
-                                                                        <i class="fas fa-chevron-down"></i>
-                                                                    </div>
-                                                                </button>
-                                                            </div>
-                                                            <div id="collapseWeek7" class="collapse show" data-parent="#week7Accordion">
-                                                                <div class="card-body">
-                                                                    <p><strong>Jour 31 : Identification des risques potentiels</strong></p>
-                                                                    <p>Nous réfléchirons aux problèmes susceptibles de se produire et nous préparerons à les affronter.</p>
-
-                                                                    <p><strong>Jours 32-33 : Élaboration du Plan "A" pour les petits problèmes</strong></p>
-                                                                    <p>Nous développerons des solutions rapides pour les problèmes mineurs.</p>
-
-                                                                    <p><strong>Jours 34-35 : Élaboration du Plan "B" pour les grandes crises</strong></p>
-                                                                    <p>Nous préparerons des plans alternatifs pour les problèmes majeurs afin que la production ne s'arrête pas.</p>
+                                                <!-- الأسبوع 7 -->
+                                                <div class="accordion inner-accordion" id="week7Accordion">
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingWeek7">
+                                                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek7" aria-expanded="true" aria-controls="collapseWeek7">
+                                                                الأسبوع 7: تطوير خطط الطوارئ
+                                                                <div class="icon-wrapper">
+                                                                    <i class="fas fa-chevron-down"></i>
                                                                 </div>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapseWeek7" class="collapse show" data-parent="#week7Accordion">
+                                                            <div class="card-body">
+                                                                <p><strong>اليوم 31: تحديد المخاطر المحتملة</strong></p>
+                                                                <p>نفكرو فالمشاكل اللي ممكن توقع، ونحضرو لها.</p>
+
+                                                                <p><strong>اليوم 32-33: وضع خطة "أ" للمشاكل الصغيرة</strong></p>
+                                                                <p>نوجدو حلول سريعة للمشاكل البسيطة.</p>
+
+                                                                <p><strong>اليوم 34-35: وضع خطة "ب" للأزمات الكبيرة</strong></p>
+                                                                <p>نحضرو خطط بديلة للمشاكل الكبيرة، باش الإنتاج ما يوقفش.</p>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
 
-                                                    <!-- Semaine 8 -->
-                                                    <div class="accordion inner-accordion" id="week8Accordion">
-                                                        <div class="card">
-                                                            <div class="card-header" id="headingWeek8">
-                                                                <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek8" aria-expanded="true" aria-controls="collapseWeek8">
-                                                                    Semaine 8 : Mise en Place d'un Système de Vote
-                                                                    <div class="icon-wrapper">
-                                                                        <i class="fas fa-chevron-down"></i>
-                                                                    </div>
-                                                                </button>
-                                                            </div>
-                                                            <div id="collapseWeek8" class="collapse show" data-parent="#week8Accordion">
-                                                                <div class="card-body">
-                                                                    <p><strong>Jour 36 : Présentation du système de vote à l'équipe</strong></p>
-                                                                    <p>Nous expliquerons à l'équipe comment utiliser le vote pour les décisions importantes.</p>
-
-                                                                    <p><strong>Jour 37 : Formation sur son utilisation</strong></p>
-                                                                    <p>Nous organiserons une formation pratique sur le système.</p>
-
-                                                                    <p><strong>Jours 38-40 : Application pratique à travers une décision réelle</strong></p>
-                                                                    <p>Nous testerons le système avec une décision réelle et observerons son fonctionnement.</p>
+                                                <!-- الأسبوع 8 -->
+                                                <div class="accordion inner-accordion" id="week8Accordion">
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingWeek8">
+                                                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek8" aria-expanded="true" aria-controls="collapseWeek8">
+                                                                الأسبوع 8: تطبيق نظام التصويت
+                                                                <div class="icon-wrapper">
+                                                                    <i class="fas fa-chevron-down"></i>
                                                                 </div>
+                                                            </button>
+                                                        </div>
+                                                        <div id="collapseWeek8" class="collapse show" data-parent="#week8Accordion">
+                                                            <div class="card-body">
+                                                                <p><strong>اليوم 36: تقديم نظام التصويت للفريق</strong></p>
+                                                                <p>نشرحو للفريق كيفاش غادي نستعملو التصويت فقرارات مهمة.</p>
+
+                                                                <p><strong>اليوم 37: تدريب على كيفية استخدامه</strong></p>
+                                                                <p>نديرو تدريب عملي على النظام.</p>
+
+                                                                <p><strong>اليوم 38-40: تطبيق عملي من خلال اتخاذ قرار فعلي</strong></p>
+                                                                <p>نجربو النظام فقرار حقيقي، ونشوفو كيفاش خدام.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -482,12 +481,12 @@
                                     </div>
                                 </div>
 
-                                <!-- Troisième Mois -->
+                                <!-- الشهر الثالث -->
                                 <div class="accordion inner-accordion" id="monthThree">
                                     <div class="card">
                                         <div class="card-header" id="headingMonth3">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth3" aria-expanded="true" aria-controls="collapseMonth3">
-                                                Troisième Mois : Renforcement de l'Environnement de Travail
+                                                الشهر الثالث: تعزيز بيئة العمل
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -495,12 +494,12 @@
                                         </div>
                                         <div id="collapseMonth3" class="collapse show" data-parent="#monthThree">
                                             <div class="card-body">
-                                                <!-- Semaine 9-10 -->
+                                                <!-- الأسبوع 9-10 -->
                                                 <div class="accordion inner-accordion" id="week910Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek910">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek910" aria-expanded="true" aria-controls="collapseWeek910">
-                                                                Semaine 9-10 : Organisation de Sessions de Brainstorming et d'Ateliers
+                                                                الأسبوع 9-10: تنظيم جلسات عصف ذهني وورشات عمل
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -508,18 +507,18 @@
                                                         </div>
                                                         <div id="collapseWeek910" class="collapse show" data-parent="#week910Accordion">
                                                             <div class="card-body">
-                                                                <p>Nous organiserons des rencontres pour échanger des idées et améliorer les processus.</p>
+                                                                <p>ننظمو لقاءات باش نتبادلو الأفكار ونحسنو العمليات.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 11 -->
+                                                <!-- الأسبوع 11 -->
                                                 <div class="accordion inner-accordion" id="week11Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek11">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek11" aria-expanded="true" aria-controls="collapseWeek11">
-                                                                Semaine 11 : Programme "Employé Leader"
+                                                                الأسبوع 11: برنامج "الموظف القيادي"
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -527,18 +526,18 @@
                                                         </div>
                                                         <div id="collapseWeek11" class="collapse show" data-parent="#week11Accordion">
                                                             <div class="card-body">
-                                                                <p>Nous offrirons des opportunités aux membres souhaitant développer leurs compétences en leadership.</p>
+                                                                <p>نوفر فرص للأعضاء اللي بغاو يطورو مهاراتهم فالقيادة.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 12 -->
+                                                <!-- الأسبوع 12 -->
                                                 <div class="accordion inner-accordion" id="week12Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek12">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek12" aria-expanded="true" aria-controls="collapseWeek12">
-                                                                Semaine 12 : Organisation d'une Activité Sociale
+                                                                الأسبوع 12: تنظيم نشاط اجتماعي
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -546,7 +545,7 @@
                                                         </div>
                                                         <div id="collapseWeek12" class="collapse show" data-parent="#week12Accordion">
                                                             <div class="card-body">
-                                                                <p>Nous organiserons une activité récréative pour rapprocher les membres.</p>
+                                                                <p>نديرو نشاط ترفيهي باش نقربو الأعضاء من بعضهم.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -556,12 +555,12 @@
                                     </div>
                                 </div>
 
-                                <!-- Quatrième Mois -->
+                                <!-- الشهر الرابع -->
                                 <div class="accordion inner-accordion" id="monthFour">
                                     <div class="card">
                                         <div class="card-header" id="headingMonth4">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth4" aria-expanded="true" aria-controls="collapseMonth4">
-                                                Quatrième Mois : Suivi des Performances et Motivation
+                                                الشهر الرابع: متابعة الأداء والتحفيز
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -569,12 +568,12 @@
                                         </div>
                                         <div id="collapseMonth4" class="collapse show" data-parent="#monthFour">
                                             <div class="card-body">
-                                                <!-- Semaine 13-14 -->
+                                                <!-- الأسبوع 13-14 -->
                                                 <div class="accordion inner-accordion" id="week1314Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek1314">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek1314" aria-expanded="true" aria-controls="collapseWeek1314">
-                                                                Semaine 13-14 : Évaluation à Mi-Parcours des Performances Individuelles et Collectives
+                                                                الأسبوع 13-14: تقييم منتصف المدة للأداء الفردي والجماعي
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -582,21 +581,21 @@
                                                         </div>
                                                         <div id="collapseWeek1314" class="collapse show" data-parent="#week1314Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Revue complète des progrès</strong></p>
-                                                                <p>Nous évaluerons nos progrès et identifierons les domaines nécessitant des améliorations.</p>
-                                                                <p>Nous réviserons les objectifs atteints et les défis rencontrés.</p>
-                                                                <p>Nous déterminerons les points forts et les domaines à améliorer pour chaque membre et pour l'équipe dans son ensemble.</p>
+                                                                <p><strong>مراجعة شاملة للتقدم</strong></p>
+                                                                <p>نقيّمو التقدم ديالنا، ونشوفو فين خاصنا نحسنو.</p>
+                                                                <p>نراجعو الأهداف اللي حققناها والتحديات اللي واجهناها.</p>
+                                                                <p>نحددو نقاط القوة ومجالات التحسين لكل عضو وللفريق ككل.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 15 -->
+                                                <!-- الأسبوع 15 -->
                                                 <div class="accordion inner-accordion" id="week15Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek15">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek15" aria-expanded="true" aria-controls="collapseWeek15">
-                                                                Semaine 15 : Attribution de Récompenses et de Motivations pour les Réalisations Exceptionnelles
+                                                                الأسبوع 15: تقديم مكافآت وتحفيزات للإنجازات المتميزة
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -604,20 +603,20 @@
                                                         </div>
                                                         <div id="collapseWeek15" class="collapse show" data-parent="#week15Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Hommage aux meilleurs performants</strong></p>
-                                                                <p>Nous honorerons les membres qui se sont distingués dans leur travail.</p>
-                                                                <p>Nous distribuerons des certificats de reconnaissance et des récompenses motivantes.</p>
+                                                                <p><strong>تكريم المتميزين</strong></p>
+                                                                <p>نكرّمو الأعضاء اللي تميّزو فعملهم.</p>
+                                                                <p>نقدمو شهادات تقدير ومكافآت تحفيزية.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 16 -->
+                                                <!-- الأسبوع 16 -->
                                                 <div class="accordion inner-accordion" id="week16Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek16">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek16" aria-expanded="true" aria-controls="collapseWeek16">
-                                                                Semaine 16 : Révision et Mise à Jour des Objectifs
+                                                                الأسبوع 16: مراجعة وتحديث الأهداف
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -625,9 +624,9 @@
                                                         </div>
                                                         <div id="collapseWeek16" class="collapse show" data-parent="#week16Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Modification des plans</strong></p>
-                                                                <p>Nous ajusterons les objectifs pour qu'ils soient en adéquation avec la réalité.</p>
-                                                                <p>Nous définirons les priorités pour la prochaine phase.</p>
+                                                                <p><strong>تعديل الخطط</strong></p>
+                                                                <p>نعدّلو الأهداف باش تتماشى مع الواقع.</p>
+                                                                <p>نحددو أولويات المرحلة القادمة.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -637,12 +636,12 @@
                                     </div>
                                 </div>
 
-                                <!-- Cinquième Mois -->
+                                <!-- الشهر الخامس -->
                                 <div class="accordion inner-accordion" id="monthFive">
                                     <div class="card">
                                         <div class="card-header" id="headingMonth5">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth5" aria-expanded="true" aria-controls="collapseMonth5">
-                                                Cinquième Mois : Focus sur la Qualité
+                                                الشهر الخامس: التركيز على الجودة
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -650,12 +649,12 @@
                                         </div>
                                         <div id="collapseMonth5" class="collapse show" data-parent="#monthFive">
                                             <div class="card-body">
-                                                <!-- Semaine 17-18 -->
+                                                <!-- الأسبوع 17-18 -->
                                                 <div class="accordion inner-accordion" id="week1718Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek1718">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek1718" aria-expanded="true" aria-controls="collapseWeek1718">
-                                                                Semaine 17-18 : Audit Complet des Opérations de Qualité
+                                                                الأسبوع 17-18: تدقيق شامل لعمليات الجودة
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -663,20 +662,20 @@
                                                         </div>
                                                         <div id="collapseWeek1718" class="collapse show" data-parent="#week1718Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Revue des Normes de Qualité</strong></p>
-                                                                <p>Nous examinerons nos opérations pour assurer une haute qualité.</p>
-                                                                <p>Nous réviserons toutes les procédures et les améliorerons si nécessaire.</p>
+                                                                <p><strong>مراجعة معايير الجودة</strong></p>
+                                                                <p>نفحصو العمليات ديالنا، ونتأكدو أن الجودة عالية.</p>
+                                                                <p>نراجعو كل الإجراءات ونحسنوها إذا كان ضروري.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 19-20 -->
+                                                <!-- الأسبوع 19-20 -->
                                                 <div class="accordion inner-accordion" id="week1920Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek1920">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek1920" aria-expanded="true" aria-controls="collapseWeek1920">
-                                                                Semaine 19-20 : Développement des Normes de Qualité
+                                                                الأسبوع 19-20: تطوير معايير الجودة
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -684,9 +683,9 @@
                                                         </div>
                                                         <div id="collapseWeek1920" class="collapse show" data-parent="#week1920Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Amélioration de la Qualité</strong></p>
-                                                                <p>Nous offrirons de nouvelles formations dans le domaine de la qualité.</p>
-                                                                <p>Nous testerons des techniques modernes pour améliorer davantage la qualité.</p>
+                                                                <p><strong>تحسين الجودة</strong></p>
+                                                                <p>نوفر تكوينات جديدة فمجال الجودة.</p>
+                                                                <p>نجربو تقنيات حديثة باش نزيدو نحسنو الجودة.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -696,12 +695,12 @@
                                     </div>
                                 </div>
 
-                                <!-- Sixième Mois -->
+                                <!-- الشهر السادس -->
                                 <div class="accordion inner-accordion" id="monthSix">
                                     <div class="card">
                                         <div class="card-header" id="headingMonth6">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMonth6" aria-expanded="true" aria-controls="collapseMonth6">
-                                                Sixième Mois : Évaluation Finale et Préparation pour l'Avenir
+                                                الشهر السادس: التقييم النهائي والتحضير للمستقبل
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -709,12 +708,12 @@
                                         </div>
                                         <div id="collapseMonth6" class="collapse show" data-parent="#monthSix">
                                             <div class="card-body">
-                                                <!-- Semaine 21-22 -->
+                                                <!-- الأسبوع 21-22 -->
                                                 <div class="accordion inner-accordion" id="week2122Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek2122">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek2122" aria-expanded="true" aria-controls="collapseWeek2122">
-                                                                Semaine 21-22 : Sondage de Satisfaction des Employés
+                                                                الأسبوع 21-22: استبيان رضا الموظفين
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -722,20 +721,20 @@
                                                         </div>
                                                         <div id="collapseWeek2122" class="collapse show" data-parent="#week2122Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Évaluation de la Satisfaction des Membres</strong></p>
-                                                                <p>Nous interrogerons les membres sur leur avis concernant l'environnement de travail.</p>
-                                                                <p>Nous recueillerons leurs suggestions pour des améliorations.</p>
+                                                                <p><strong>تقييم رضا الأعضاء</strong></p>
+                                                                <p>نسولو الأعضاء على رأيهم فبيئة العمل.</p>
+                                                                <p>نجمعو اقتراحاتهم للتحسين.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
-                                                <!-- Semaine 23-24 -->
+                                                <!-- الأسبوع 23-24 -->
                                                 <div class="accordion inner-accordion" id="week2324Accordion">
                                                     <div class="card">
                                                         <div class="card-header" id="headingWeek2324">
                                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseWeek2324" aria-expanded="true" aria-controls="collapseWeek2324">
-                                                                Semaine 23-24 : Planification pour l'Avenir
+                                                                الأسبوع 23-24: التخطيط للمستقبل
                                                                 <div class="icon-wrapper">
                                                                     <i class="fas fa-chevron-down"></i>
                                                                 </div>
@@ -743,9 +742,9 @@
                                                         </div>
                                                         <div id="collapseWeek2324" class="collapse show" data-parent="#week2324Accordion">
                                                             <div class="card-body">
-                                                                <p><strong>Revue et Planification</strong></p>
-                                                                <p>Nous discuterons de nos réalisations et des défis rencontrés.</p>
-                                                                <p>Nous préparerons un nouveau plan basé sur ce que nous avons appris.</p>
+                                                                <p><strong>مراجعة وتخطيط</strong></p>
+                                                                <p>نناقشو شنو حققنا، وشنو التحديات اللي واجهنا.</p>
+                                                                <p>نحضرو لخطة جديدة مبنية على اللي تعلمناه.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -758,11 +757,11 @@
                         </div>
                     </div>
 
-                    <!-- Comment chaque point fonctionne en détail -->
+                    <!-- كيفية عمل كل نقطة بالتفصيل -->
                     <div class="card">
                         <div class="card-header" id="headingDetails">
                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetails" aria-expanded="true" aria-controls="collapseDetails">
-                                Comment chaque point fonctionne en détail
+                                كيفية عمل كل نقطة بالتفصيل
                                 <div class="icon-wrapper">
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -771,11 +770,11 @@
                         <div id="collapseDetails" class="collapse show" data-parent="#mainAccordion">
                             <div class="card-body">
                                 <div class="accordion inner-accordion" id="detailsAccordion">
-                                    <!-- Point 1 -->
+                                    <!-- النقطة 1 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail1">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail1" aria-expanded="true" aria-controls="collapseDetail1">
-                                                1. Clarification des Objectifs et des Responsabilités
+                                                1. توضيح الأهداف والمسؤوليات
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -783,17 +782,17 @@
                                         </div>
                                         <div id="collapseDetail1" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Utiliser des présentations, des vidéos et des exemples pratiques pour clarifier tous les points.</p>
-                                                <p>- Poser des questions aux membres s'ils ont des interrogations et les encourager à exprimer leurs opinions.</p>
+                                                <p>- نستعمل عروض تقديمية، فيديوهات، وأمثلة عملية باش يكون كلشي واضح.</p>
+                                                <p>- نسولو الأعضاء إذا عندهم أي استفسارات، ونشجعوهم يعبرو على آرائهم.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 2 -->
+                                    <!-- النقطة 2 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail2">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail2" aria-expanded="true" aria-controls="collapseDetail2">
-                                                2. Distribution des Tâches selon les Compétences
+                                                2. توزيع المهام حسب المهارات
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -801,17 +800,17 @@
                                         </div>
                                         <div id="collapseDetail2" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Créer une base de données contenant les compétences de chaque membre.</p>
-                                                <p>- Effectuer des mises à jour régulières pour tenir compte des changements de compétences ou d'intérêts.</p>
+                                                <p>- نخلقو قاعدة بيانات فيها المهارات ديال كل عضو.</p>
+                                                <p>- نديرو تحديثات دورية باش نستاجبو لأي تغييرات فالمهارات أو الاهتمامات.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 3 -->
+                                    <!-- النقطة 3 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail3">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail3" aria-expanded="true" aria-controls="collapseDetail3">
-                                                3. Orientation et Suivi Continu
+                                                3. التوجيه والمتابعة المستمرة
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -819,17 +818,17 @@
                                         </div>
                                         <div id="collapseDetail3" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Utiliser des outils de gestion de projet pour suivre les progrès.</p>
-                                                <p>- Organiser des réunions individuelles et collectives pour discuter des progrès et des défis.</p>
+                                                <p>- نستعمل أدوات إدارة المشاريع لتتبع التقدم.</p>
+                                                <p>- نديرو اجتماعات فردية وأخرى جماعية باش نناقشو التقدم والتحديات.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 4 -->
+                                    <!-- النقطة 4 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail4">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail4" aria-expanded="true" aria-controls="collapseDetail4">
-                                                4. Analyse des Racines des Problèmes
+                                                4. تحليل جذور المشاكل
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -837,17 +836,17 @@
                                         </div>
                                         <div id="collapseDetail4" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Utiliser la méthodologie des "cinq pourquoi" pour identifier la racine du problème.</p>
-                                                <p>- Partager les résultats avec toute l'équipe pour assurer une compréhension commune.</p>
+                                                <p>- نستعمل منهجية "خمسة علاش" باش نوصلو لجذر المشكلة.</p>
+                                                <p>- نشاركو النتائج مع الفريق كامل، باش يكون الكل على علم.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 5 -->
+                                    <!-- النقطة 5 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail5">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail5" aria-expanded="true" aria-controls="collapseDetail5">
-                                                5. Mise en Œuvre des Mesures Préventives
+                                                5. تطبيق إجراءات وقائية
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -855,17 +854,17 @@
                                         </div>
                                         <div id="collapseDetail5" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Définir les responsabilités pour chaque mesure et assurer l'engagement de tous.</p>
-                                                <p>- Effectuer des révisions régulières pour évaluer l'efficacité des mesures.</p>
+                                                <p>- نحدد المسؤوليات لكل إجراء، ونتأكدو من التزام الجميع.</p>
+                                                <p>- نديرو مراجعات دورية باش نقيّمو فعالية الإجراءات.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 6 -->
+                                    <!-- النقطة 6 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail6">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail6" aria-expanded="true" aria-controls="collapseDetail6">
-                                                6. Plans de Contingence
+                                                6. خطط الطوارئ
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -873,17 +872,17 @@
                                         </div>
                                         <div id="collapseDetail6" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Former l'équipe à une réponse rapide en cas d'urgence.</p>
-                                                <p>- Réviser régulièrement les plans et les mettre à jour selon les besoins.</p>
+                                                <p>- ندربو الفريق على الاستجابة السريعة فحالة الطوارئ.</p>
+                                                <p>- نراجعو الخطط بانتظام، ونحدّثوها حسب الحاجة.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 7 -->
+                                    <!-- النقطة 7 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail7">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail7" aria-expanded="true" aria-controls="collapseDetail7">
-                                                7. Système de Vote (Après Consultation avec les Directeurs)
+                                                7. نظام التصويت (بعد التشاور مع المدراء)
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -891,17 +890,17 @@
                                         </div>
                                         <div id="collapseDetail7" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Utiliser des applications électroniques faciles à utiliser.</p>
-                                                <p>- Assurer que le vote est transparent et que tous respectent les résultats.</p>
+                                                <p>- نستعمل تطبيقات إلكترونية سهلة الاستخدام.</p>
+                                                <p>- نضمنو أن التصويت شفاف، والكل كيحترم النتائج.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 8 -->
+                                    <!-- النقطة 8 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail8">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail8" aria-expanded="true" aria-controls="collapseDetail8">
-                                                8. Renforcement de l'Environnement de Travail et de l'Énergie Positive
+                                                8. تعزيز بيئة العمل والطاقة الإيجابية
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -909,17 +908,17 @@
                                         </div>
                                         <div id="collapseDetail8" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Organiser des activités récréatives et sociales (Après consultation avec les directeurs).</p>
-                                                <p>- Offrir des récompenses et des reconnaissances pour les performances exceptionnelles (Après consultation avec les directeurs).</p>
+                                                <p>- ننظمو أنشطة ترفيهية واجتماعية (بعد التشاور مع المدراء).</p>
+                                                <p>- نقدمو جوائز وتقديرات للأداء المتميز (بعد التشاور مع المدراء).</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 9 -->
+                                    <!-- النقطة 9 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail9">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail9" aria-expanded="true" aria-controls="collapseDetail9">
-                                                9. Système de Gestion des Affaires Sociales pour les Employés
+                                                9. نظام الشؤون الاجتماعية للموظف
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -927,18 +926,18 @@
                                         </div>
                                         <div id="collapseDetail9" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Définir des moments pour écouter les problèmes des membres.</p>
-                                                <p>- Offrir un soutien psychologique et professionnel lorsque nécessaire.</p>
-                                                <p>- Encourager l'esprit d'équipe et la collaboration.</p>
+                                                <p>- نخصصو أوقات للاستماع لمشاكل الأعضاء.</p>
+                                                <p>- نقدمو الدعم النفسي والمهني عند الحاجة.</p>
+                                                <p>- نشجعو على روح الفريق والتعاون.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Point 10 -->
+                                    <!-- النقطة 10 -->
                                     <div class="card">
                                         <div class="card-header" id="headingDetail10">
                                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseDetail10" aria-expanded="true" aria-controls="collapseDetail10">
-                                                10. Suivi et Évaluation Continus
+                                                10. التتبع والتقييم المستمر
                                                 <div class="icon-wrapper">
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
@@ -946,8 +945,8 @@
                                         </div>
                                         <div id="collapseDetail10" class="collapse show" data-parent="#detailsAccordion">
                                             <div class="card-body">
-                                                <p>- Utiliser des indicateurs de performance clairs et définis.</p>
-                                                <p>- Préparer des rapports mensuels et discuter des résultats avec l'équipe.</p>
+                                                <p>- نستعمل مؤشرات أداء واضحة ومحددة.</p>
+                                                <p>- نديرو تقارير شهرية، ونناقشو النتائج مع الفريق.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -956,11 +955,11 @@
                         </div>
                     </div>
 
-                    <!-- Points Additionnels -->
+                    <!-- النقاط الإضافية -->
                     <div class="card">
                         <div class="card-header" id="headingAdditional">
                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseAdditional" aria-expanded="true" aria-controls="collapseAdditional">
-                                Points Additionnels Après Consultation avec les Directeurs
+                                نقاط إضافية بعد التشاور مع المدراء
                                 <div class="icon-wrapper">
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -970,35 +969,35 @@
                             <div class="card-body">
                                 <ul>
                                     <li>
-                                        <strong>Organisation d'Activités Récréatives et Sociales</strong>
-                                        <p>Excursions, fêtes ou compétitions internes.</p>
+                                        <strong>تنظيم أنشطة ترفيهية واجتماعية</strong>
+                                        <p>رحلات، حفلات، أو مسابقات داخلية.</p>
                                     </li>
                                     <li>
-                                        <strong>Offrir des Récompenses et des Reconnaissances pour les Performances Exceptionnelles</strong>
-                                        <p>Certificats de reconnaissance, primes financières ou cadeaux symboliques.</p>
+                                        <strong>تقديم جوائز وتقديرات للأداء المتميز</strong>
+                                        <p>شهادات تقدير، مكافآت مالية، أو هدايا رمزية.</p>
                                     </li>
                                     <li>
-                                        <strong>Utilisation d'Applications Électroniques pour un Vote Transparent</strong>
-                                        <p>Applications telles que SurveyMonkey ou Google Forms.</p>
+                                        <strong>استخدام تطبيقات إلكترونية للتصويت الشفاف</strong>
+                                        <p>تطبيقات مثل SurveyMonkey أو Google Forms.</p>
                                     </li>
                                     <li>
-                                        <strong>Assurer la Participation de Tous et Respecter les Résultats du Vote</strong>
-                                        <p>Établir des règles claires et encourager la participation de tous.</p>
+                                        <strong>ضمان مشاركة الجميع واحترام نتائج التصويت</strong>
+                                        <p>وضع قواعد واضحة، وتشجيع الجميع على المشاركة.</p>
                                     </li>
                                     <li>
-                                        <strong>Application de Nouvelles Technologies pour Améliorer la Qualité</strong>
-                                        <p>Adopter des outils modernes ou des logiciels avancés.</p>
+                                        <strong>تطبيق تقنيات جديدة لتحسين الجودة</strong>
+                                        <p>اعتماد أدوات حديثة أو برامج متطورة.</p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Conclusion -->
+                    <!-- الخاتمة -->
                     <div class="card">
                         <div class="card-header" id="headingConclusion">
                             <button class="btn" type="button" data-toggle="collapse" data-target="#collapseConclusion" aria-expanded="true" aria-controls="collapseConclusion">
-                                Conclusion
+                                الخاتمة
                                 <div class="icon-wrapper">
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -1006,9 +1005,9 @@
                         </div>
                         <div id="collapseConclusion" class="collapse show" data-parent="#mainAccordion">
                             <div class="card-body">
-                                <p>Grâce à ce plan détaillé, nous aspirons à atteindre nos objectifs de manière efficace et à améliorer les performances de l'équipe de manière durable, semblable à une <strong>ruche d'abeilles</strong> où chaque membre joue son rôle avec compétence et coordination.</p>
-                                <p>En se concentrant sur une planification rigoureuse et un suivi continu, nous pourrons faire face à tous les défis et réaliser le succès souhaité.</p>
-                                <p>Les points additionnels seront mis en œuvre après consultation avec les directeurs afin d'assurer leur alignement avec les politiques de l'entreprise.</p>
+                                <p>من خلال هاد الخطة المفصلة، كنطمحو نحقو الأهداف ديالنا بفعالية ونطورو أداء الفريق بشكل مستدام، بحال <strong>خلية النحل</strong> فين كل عضو كيلعب دورو بإتقان وتنسيق.</p>
+                                <p>التركيز على التخطيط المحكم والمتابعة المستمرة غادي يمكننا من التعامل مع أي تحديات ونحققو النجاح المطلوب.</p>
+                                <p>النقاط الإضافية غادي نطبقوها بعد التشاور مع المدراء لضمان توافقها مع سياسات الشركة.</p>
                             </div>
                         </div>
                     </div>
@@ -1017,28 +1016,33 @@
         </div>
     </div>
 
-    <!-- Pied de page -->
+    <!-- تذييل الصفحة -->
     <footer>
-        <p>&copy; 2024 Saham Loulidi</p>
+        <p>&copy; 2024 سهام الوليدي</p>
     </footer>
 
-    <!-- Bibliothèques requises -->
-    <!-- Utilisation de la version complète de jQuery au lieu de la version allégée pour assurer le bon fonctionnement de toutes les fonctionnalités de Bootstrap -->
+    <!-- المكتبات المطلوبة -->
+    <!-- استخدام نسخة كاملة من jQuery بدلاً من النسخة المقتضبة لضمان عمل جميع وظائف Bootstrap بشكل صحيح -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- JavaScript pour faire tourner l'icône de la flèche lors de l'ouverture/la fermeture de l'accordéon -->
+    <!-- JavaScript لتحويل أيقونة السهم عند فتح/إغلاق الأكورديون -->
     <script>
         $(document).ready(function(){
-            // Lors de l'ouverture de la section
-            $('.collapse').on('show.bs.collapse', function(){
-                $(this).prev('.card-header').find('i').css('transform', 'rotate(180deg)');
+            // تحديث الأيقونات بناءً على الحالة الحالية للأكورديون عند تحميل الصفحة
+            $('.collapse.show').each(function(){
+                $(this).prev('.card-header').find('i').css('transform', 'rotate(0deg)');
             });
 
-            // Lors de la fermeture de la section
-            $('.collapse').on('hide.bs.collapse', function(){
+            // عند فتح الشريط
+            $('.collapse').on('show.bs.collapse', function(){
                 $(this).prev('.card-header').find('i').css('transform', 'rotate(0deg)');
+            });
+
+            // عند إغلاق الشريط
+            $('.collapse').on('hide.bs.collapse', function(){
+                $(this).prev('.card-header').find('i').css('transform', 'rotate(180deg)');
             });
         });
     </script>
